@@ -1,0 +1,144 @@
+#experimentImage{
+    width: 50%;
+}
+
+
+#ABOUT{
+    background: linear-gradient(to right, rebeccapurple, purple, mediumpurple);
+    color: white;
+}
+
+#MainImg{
+    width: 50%;
+
+
+}
+
+#border img{
+    width: 50%;
+}
+
+/*Start of Footer*/
+footer{
+    background: linear-gradient(to right, rebeccapurple, purple, mediumpurple);
+    color: white;
+}
+footer section h3{
+    margin-top: 10px;
+}
+/*End of Footer*/
+
+#topnav{
+
+    float: right;
+    padding: 50px;
+}
+#2ndtopnav {
+    list-style-type: none;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    color: purple;
+}
+
+main{
+    background-color: white;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h3.col-md-12 {
+    background-color: purple;
+    color: white;
+}
+
+li a.navbar-primary:hover{
+    background-color: purple;
+}
+
+
+div.panel-heading{
+    background-color: purple;
+}
+
+#context1{
+    color: purple;
+    font-size: large;
+    font-style: inherit;
+}
+
+#ul {
+    background-color: #f1f1f1;
+}
+
+.panel-primary.panel-heading{
+    background-color: purple;
+}
+
+#RelLinkink{
+    color: purple;
+    font-size: x-large;
+
+}
+
+#context3{
+    text-align: center;
+}
+#image2 {
+    display: block;
+    margin: auto;
+
+}
+
+#Dropdown{
+    Width: 200px;
+}
+
+.well {
+    Width: 100px;
+}
+
+/* Footer */
+
+.footer-section {
+    background: linear-gradient(to right, rebeccapurple, purple, mediumpurple);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 45px 50px;
+    margin-top: 5px;
+    height: 10%;
+    color: white;
+
+}
+
+.footer-section .left-section,
+.footer-section .center-section,
+.footer-section .right-section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-section .left-section{
+    width: 40%;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.footer-section .right-section{
+    width: 55%;
+    padding-left: 400px;
+    padding-top: 30px;
+}
+

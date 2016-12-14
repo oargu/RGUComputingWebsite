@@ -1,0 +1,167 @@
+@import "fonts.css";
+
+#experimentImage{
+    margin: 6px 0 3px 0;
+    width: 50%;
+}
+
+/* Header Styling */
+header {
+    background-color: white;
+    color: white;
+    height: 80px;
+    margin: auto;
+    display: block;
+    overflow-x: hidden;
+    z-index: 1;
+    position: fixed;
+}
+
+header h1 {
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 0;
+    color: white;
+}
+
+header h2 {
+    margin-top: 0;
+    color: white;
+}
+/* End of Header Styling */
+
+/* Googe Maps styling */
+.google-maps {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* Banner Image Styling */
+#rgu-campus {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Panel Primary Padding */
+.panel-primary {
+    margin-top: 15px;
+}
+
+#rgu-logo {
+
+    height: 60px;
+    text-align: left;
+    position: absolute;
+    padding-top: 20px;
+}
+
+/* Body Styling */
+body {
+    max-width: 1080px;
+    margin: 0 auto!important;
+    float: none !important;
+    background-color: white;
+}
+
+/* Header list item styling */
+#header-list-items {
+    padding-left: 400px;
+    font-size: 1vw;
+    overflow-x: hidden;
+}
+
+li a {
+    color: black;
+}
+
+main {
+    background-color: white;
+}
+
+/* Navbar styling */
+#contact-nav {
+    color: white;
+    width: 1060px;
+    margin: auto;
+    background: linear-gradient(to right, rebeccapurple, purple, mediumpurple);
+}
+
+.navbar-contact {
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 80px;
+    font: bold 16px sans-serif;
+}
+
+/* Footer Styling */
+.contact-footer-section {
+    background: linear-gradient(to right, rebeccapurple, purple, mediumpurple);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 45px 50px;
+    margin-top: 5px;
+}
+
+.contact-footer-section .left-section,
+.contact-footer-section .center-section,
+.contact-footer-section .right-section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Left-section */
+
+.contact-footer-section .left-section{
+    width: 40%;
+    padding-right: 50px;
+}
+
+.contact-footer-section h4{
+    color: white;
+}
+
+/* Right Section */
+.contact-footer-section .right-section{
+    width: 35%;
+    padding-left: 70px;
+}
+
+.contact-footer-section .center-section{
+    width: 20%;
+}
+
+/* MAKING FOOTER RESPONSIVE */
+@media (max-width: 880px) {
+
+    .main-section{
+        font: bold 14px sans-serif;
+    }
+
+    .contact-footer-section .left-section,
+    .contact-footer-section .center-section,
+    .contact-footer-section .right-section{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .contact-footer-section .right-section i{
+        margin-left: 0;
+    }
+}
+
+#context3 {
+    text-align: center;
+}
+
+

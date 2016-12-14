@@ -1,0 +1,136 @@
+.main-section {
+	background-color: white;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 45px 50px;
+	margin-top: 5px;
+}
+
+.main-section .left-section,
+.main-section .center-section,
+.main-section .right-section {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Left-section */
+
+.main-section .left-section{
+	width: 40%;
+	padding-right: 50px;
+}
+
+/* The company logo */
+
+.main-section h4{
+	color: black;
+}
+
+.main-section li {
+	color: darkviolet;
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+.main-section h5 span{
+	display: block;
+	color:  black;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* Right Section */
+
+.main-section .right-section{
+	width: 35%;
+	padding-left: 70px;
+}
+
+[id^="togList"], /* HIDE CHECKBOX */
+[id^="togList"] ~ .list,                /* HIDE LIST */
+[id^="togList"] + label  span + span,   /* HIDE "Collapse" */
+[id^="togList"]:checked + label span{   /* HIDE "Expand" (IF CHECKED) */
+	display:none;
+}
+
+[id^="togList"]:checked + label span + span{
+	display:inline-block;            /* SHOW "Collapse" (IF CHECKED) */
+}
+
+[id^="togList"]:checked ~ .list{
+	display:block;                  /* SHOW LIST (IF CHECKED) */
+}
+
+
+/* Center Section */
+.main-section .center-section{
+	width: 20%;
+}
+
+.main-section .center-section{
+	line-height: 20px;
+	color:  darkviolet;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.main-section .Follow-Us span{
+	display: block;
+	color:  black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#facebook-icon {
+	height: 30px;
+	width: 30px;
+}
+
+#twitter-icon {
+	height: 30px;
+	width: 30px;
+}
+
+#youtube-icon {
+	height: 30px;
+	width: 30px;
+}
+
+#instagram-icon {
+	height: 30px;
+	width: 30px;
+}
+
+.main-section p {
+	color: darkviolet;
+}
+
+/* MAKING SECTION RESPONSIVE */
+
+@media (max-width: 880px) {
+
+	.main-section{
+		font: bold 14px sans-serif;
+	}
+
+	.main-section .left-section,
+	.main-section .center-section,
+	.main-section .right-section{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.main-section {
+		margin-left: 0;
+	}
+
+}
+
+
