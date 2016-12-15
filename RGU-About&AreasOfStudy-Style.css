@@ -9,7 +9,7 @@
 }
 
 #MainImg{
-    width: 50%;
+    width: 20%;
 
 
 }
@@ -73,7 +73,7 @@ div.panel-heading{
 
 #context1{
     color: purple;
-    font-size: large;
+    font-size: medium;
     font-style: inherit;
 }
 
